@@ -6,6 +6,9 @@ function App() {
   const portfolio = videoData.portfolio;
   const [selectedServices, setSelectedServices] = useState([]);
   const contactRef = useRef(null);
+  const demoReelVideoId = 'WPoHr-Uk9X8';
+  const heroBackgroundVideoSrc = `https://www.youtube.com/embed/${demoReelVideoId}?autoplay=1&mute=1&loop=1&playlist=${demoReelVideoId}`;
+  const demoReelEmbedSrc = `https://www.youtube.com/embed/${demoReelVideoId}?rel=0`;
 
   const services = [
     { key: 'videoEditing', title: 'Video Editing', anchor: 'video-editing', icon: 'M15.91 11.672a.375.375 0 010 .656l-5.603 3.113a.375.375 0 01-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112z M2.25 12c0-5.385 4.365-9.75 9.75-9.75s9.75 4.365 9.75 9.75-4.365 9.75-9.75 9.75S2.25 17.385 2.25 12z' },
@@ -140,7 +143,7 @@ function App() {
       <div className="absolute top-0 left-0 w-full h-full h-screen z-1">
         <iframe
           className="w-full h-full object-cover blur-md pointer-events-none"
-          src="https://www.youtube.com/embed/WPoHr-Uk9X8?autoplay=1&mute=1&loop=1&playlist=WPoHr-Uk9X8"
+          src={heroBackgroundVideoSrc}
           title="YouTube video background"
           allow="autoplay; fullscreen"
           allowFullScreen
@@ -189,6 +192,52 @@ function App() {
           </div>
         </header>
       </div>
+
+      {/* Demo Reel */}
+      <section id="demo-reel" className="py-20 px-4 relative z-10 bg-gray-900 bg-opacity-95">
+        <div
+          className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-[0.9fr,1.4fr] gap-10 items-center p-8 md:p-12 shadow-2xl"
+          style={{ border: '1px solid #5a5549', backgroundColor: 'rgba(17, 24, 39, 0.88)' }}
+        >
+          <div>
+            <h2 className="text-3xl md:text-5xl font-bold mb-6">Demo Reel</h2>
+            <p className="text-lg leading-relaxed mb-8" style={{ color: '#b8b3a7' }}>
+              Watch a quick summary of my editing style across branded content.
+            </p>
+            <div className="flex flex-wrap gap-4">
+              <a
+                href="#portfolio"
+                className="inline-flex items-center gap-2 font-semibold tracking-wide transition duration-300 hover:opacity-80"
+                style={{ color: '#d4cfc4' }}
+              >
+                <span>Explore Full Portfolio</span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+              </a>
+              <a
+                href="#contact"
+                className="inline-flex items-center gap-2 font-semibold tracking-wide transition duration-300 hover:opacity-80"
+                style={{ color: '#6b8ea8' }}
+              >
+                <span>Start a Project</span>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div className="relative w-full overflow-hidden shadow-lg" style={{ paddingBottom: '56.25%', border: '1px solid #5a5549' }}>
+            <iframe
+              className="absolute top-0 left-0 w-full h-full"
+              src={demoReelEmbedSrc}
+              title="Brandon Johnston demo reel"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
 
       {/* Services Section */}
       <section id="services" className="py-20 px-4 relative z-10 bg-gray-900 bg-opacity-90">
