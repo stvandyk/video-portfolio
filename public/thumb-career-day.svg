@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#1a1a1e"/>
+  <rect x="120" y="30" width="160" height="240" fill="#f5f0e8" rx="2"/>
+  <text x="200" y="120" text-anchor="middle" font-family="Courier New, monospace" font-size="14" font-weight="bold" fill="#1a1a1e">CAREER DAY</text>
+  <text x="200" y="145" text-anchor="middle" font-family="Courier New, monospace" font-size="9" fill="#555">Written by</text>
+  <text x="200" y="162" text-anchor="middle" font-family="Courier New, monospace" font-size="10" fill="#1a1a1e">Brandon Johnston</text>
+  <line x1="155" y1="190" x2="245" y2="190" stroke="#ccc" stroke-width="0.5"/>
+  <text x="200" y="210" text-anchor="middle" font-family="Courier New, monospace" font-size="7" fill="#999">INT. SHAWN'S CAR - DAY</text>
+  <text x="200" y="222" text-anchor="middle" font-family="Courier New, monospace" font-size="6" fill="#bbb">Shawn and Andy are driving</text>
+  <text x="200" y="232" text-anchor="middle" font-family="Courier New, monospace" font-size="6" fill="#bbb">home. Andy rides in the back</text>
+  <text x="200" y="242" text-anchor="middle" font-family="Courier New, monospace" font-size="6" fill="#bbb">with his backpack in his lap...</text>
+</svg>

@@ -1,0 +1,127 @@
+{
+  "portfolio": {
+    "videoEditing": [
+      {
+        "id": 1,
+        "title": "Working With Your HCM Care Team",
+        "platform": "vimeo",
+        "videoId": "1132567243",
+        "description": "A branded content piece produced for WebMD covering HCM."
+      },
+      {
+        "id": 2,
+        "title": "Importance of Treating Eosinophilic Asthma",
+        "platform": "vimeo",
+        "videoId": "1132563811",
+        "description": "An educational video produced for WebMD on eosinophilic asthma."
+      },
+      {
+        "id": 3,
+        "title": "Smoker Showdown",
+        "platform": "youtube",
+        "videoId": "JWfI2jpnrUg",
+        "description": "A showcase of creative storytelling and visual production."
+      },
+      {
+        "id": 4,
+        "title": "Catching Up to Crypto Book Trailer",
+        "platform": "youtube",
+        "videoId": "9ubeDaQenX4",
+        "description": "A dynamic edit highlighting rhythm, pacing, and visual impact."
+      },
+      {
+        "id": 5,
+        "title": "History of Blackrock",
+        "platform": "youtube",
+        "videoId": "Gsu35E7r74k",
+        "description": ""
+      },
+      {
+        "id": 6,
+        "title": "Top Crypto Pick for 2024",
+        "platform": "youtube",
+        "videoId": "_B6NLybLXcA",
+        "description": ""
+      },
+      {
+        "id": 7,
+        "title": "Best Opportunity for Chainlink",
+        "platform": "youtube",
+        "videoId": "1rY9CfvFADY",
+        "description": ""
+      },
+      {
+        "id": 8,
+        "title": "Origins of Claymates",
+        "platform": "youtube",
+        "videoId": "eqHl0AkjWDQ",
+        "description": ""
+      }
+    ],
+    "contentWriting": [
+      {
+        "id": 201,
+        "title": "Times Lois Got What She Deserved",
+        "platform": "youtube",
+        "videoId": "VuHhIgnL85o",
+        "description": ""
+      },
+      {
+        "id": 202,
+        "title": "Sweaty Clam 035 Script",
+        "platform": "pdf",
+        "url": "/sweaty-clam-035-script.pdf",
+        "thumbnail": "/thumb-sweaty-clam.svg",
+        "description": ""
+      },
+      {
+        "id": 301,
+        "title": "Sinners Review and Cocktail",
+        "platform": "youtube",
+        "videoId": "OYRPJVWzcK4",
+        "description": ""
+      },
+      {
+        "id": 302,
+        "title": "Killers of the Flower Moon Review and Cocktail",
+        "platform": "youtube",
+        "videoId": "UyetpVDsXjs",
+        "description": ""
+      }
+    ],
+    "screenwriting": [
+      {
+        "id": 303,
+        "title": "Zealots (Excerpt)",
+        "platform": "pdf",
+        "url": "/zealots-excerpt.pdf",
+        "thumbnail": "/thumb-zealots.svg",
+        "description": ""
+      },
+      {
+        "id": 304,
+        "title": "Career Day (Excerpt)",
+        "platform": "pdf",
+        "url": "/career-day-excerpt.pdf",
+        "thumbnail": "/thumb-career-day.svg",
+        "description": ""
+      }
+    ],
+    "motionGraphics": [
+      {
+        "id": 401,
+        "title": "Name Lower Third",
+        "platform": "video",
+        "url": "/brandon-name-3rd.mp4",
+        "description": ""
+      },
+      {
+        "id": 402,
+        "title": "TBK Moving Background",
+        "platform": "video",
+        "url": "/tbk-moving-background.mp4",
+        "description": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <rect width="400" height="300" fill="#1a1a1e"/>
+  <rect x="120" y="30" width="160" height="240" fill="#f5f0e8" rx="2"/>
+  <text x="200" y="110" text-anchor="middle" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#1a1a1e">SWEATY CLAM</text>
+  <text x="200" y="128" text-anchor="middle" font-family="Courier New, monospace" font-size="11" font-weight="bold" fill="#1a1a1e">035</text>
+  <text x="200" y="152" text-anchor="middle" font-family="Courier New, monospace" font-size="9" fill="#555">Written by</text>
+  <text x="200" y="169" text-anchor="middle" font-family="Courier New, monospace" font-size="10" fill="#1a1a1e">Brandon Johnston</text>
+  <line x1="155" y1="190" x2="245" y2="190" stroke="#ccc" stroke-width="0.5"/>
+  <text x="200" y="210" text-anchor="middle" font-family="Courier New, monospace" font-size="6.5" fill="#999">These are 10 times Lois got</text>
+  <text x="200" y="222" text-anchor="middle" font-family="Courier New, monospace" font-size="6.5" fill="#bbb">exactly what she deserved!</text>
+  <text x="200" y="238" text-anchor="middle" font-family="Courier New, monospace" font-size="6.5" fill="#bbb">1. Season 9, Episode 13</text>
+  <text x="200" y="250" text-anchor="middle" font-family="Courier New, monospace" font-size="6.5" fill="#bbb">(Trading Places)...</text>
+</svg>
