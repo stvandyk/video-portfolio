@@ -62,7 +62,7 @@ export function Contact({ selectedServices = [], onServicesChange, allServices =
             onServicesChange([]);
             setDropdownOpen(false);
         } catch (err) {
-            setSendError(`Something went wrong. Please email ${RECIPIENT_EMAIL} directly.`);
+            setSendError(err.message || `Something went wrong. Please email ${RECIPIENT_EMAIL} directly.`);
         } finally {
             setIsSending(false);
         }

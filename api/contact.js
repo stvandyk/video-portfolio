@@ -84,7 +84,16 @@ module.exports = async function handler(req, res) {
   });
 
   if (error) {
-    return res.status(500).json({ ok: false, error: 'Unable to send email right now' });
+    console.error('Resend email error:', {
+      name: error.name,
+      statusCode: error.statusCode,
+      message: error.message,
+    });
+
+    return res.status(error.statusCode || 500).json({
+      ok: false,
+      error: error.message || 'Unable to send email right now',
+    });
   }
 
   return res.status(200).json({ ok: true });
